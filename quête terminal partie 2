@@ -1,0 +1,148 @@
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~
+$ curl -L -o planets.zip "https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (60) SSL certificate problem: self signed certificate in certificate chain
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the web page mentioned above.
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~
+$ cd Downloads
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads
+$ unzip planets.zip
+Archive:  planets.zip
+   creating: planets/
+  inflating: planets/mercury.jpeg
+  inflating: planets/earth.jpeg
+  inflating: planets/pluto.jpeg
+  inflating: planets/arrakis.jpeg
+  inflating: planets/jupiter.jpeg
+  inflating: planets/venus.jpeg
+  inflating: planets/mars.jpeg
+  inflating: planets/cybertron.jpeg
+  inflating: planets/coruscant.jpeg
+  inflating: planets/uranus.jpeg
+  inflating: planets/neptune.jpeg
+  inflating: planets/saturn.jpeg
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads
+$ mkdir quests
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads
+$ mkdir quests/shell
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads
+$ cd quests
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests
+$ cd shell
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell
+$ mkdir real
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell
+$ ls
+real/
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell
+$ mkdir inhabited
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell
+$ ls
+inhabited/  real/
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell
+$ mkdir fictional
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell
+$ ls
+fictional/  inhabited/  real/
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell
+$ cd real
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell/real
+$ mkdir terrestrial
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell/real
+$ ls
+terrestrial/
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell/real
+$ mkdir dwarf-planets
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell/real
+$ mkdir gas-giants
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell/real
+$ ls
+dwarf-planets/  gas-giants/  terrestrial/
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell/real
+$ cd ../
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell
+$ cd ../
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests
+$ cd ../
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads
+$ cd planets
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/planets
+$ mv earth.jpeg jupiter.jpeg mars.jpeg mercury.jpeg neptune.jpeg saturn.jpeg uranus.jpeg venus.jpeg ../quests/shell/real
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/planets
+$ cd ../
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads
+$ cd quests
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests
+$ cd shell/real
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell/real
+$ ls
+dwarf-planets/  jupiter.jpeg  neptune.jpeg  uranus.jpeg
+earth.jpeg      mars.jpeg     saturn.jpeg   venus.jpeg
+gas-giants/     mercury.jpeg  terrestrial/
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell/real
+$ mv venus.jpeg earth.jpeg mars.jpeg mercury.jpeg ./terrestrial
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell/real
+$ mv jupiter.jpeg neptune.jpeg saturn.jpeg uranus.jpeg ./gas-giants
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/planets
+$ mv pluto.jpeg ../quests/shell/real/dwarf-planets
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/planets
+$ mv cybertron.jpeg coruscant.jpeg arrakis.jpeg ../quests/shell/fictional
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/planets
+$ cp cybertron.jpeg coruscant.jpeg arrakis.jpeg ../quests/shell/inhabited../
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/planets
+$ cd ../
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads
+$ cd quests/shell/real
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell/real
+$ cd terrestrial
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell/real/terrestrial
+$ cp earth.jpeg ../inhabited
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell/real/terrestrial
+$ cd ../
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell/real
+$ cd inhabited
+bash: cd: inhabited: Not a directory
+
+Céline@LAPTOP-NLL1KJJ7 MINGW64 ~/Downloads/quests/shell/real
+$ ls
+dwarf-planets/  gas-giants/  inhabited  terrestrial/
